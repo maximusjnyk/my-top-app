@@ -20,6 +20,7 @@ import { JwtStrategy } from './strategies/jwt.strategy';
 				}
 			}
 		]),
+		ConfigModule,
 		JwtModule.registerAsync({
 			imports: [ConfigModule],
 			inject: [ConfigService],

@@ -26,8 +26,9 @@
 .primary svg,
 .ghost:hover svg {
 	fill: var(--white);
+
 	color: var(--white);
-	background-color: var(--primary)
+	background-color: var(--primary);
 }
 
 .ghost {
